@@ -95,6 +95,5 @@ infiniopDestroyExpDescriptor(infiniopExpDescriptor_t desc) {
     default:
         return INFINI_STATUS_DEVICE_TYPE_NOT_SUPPORTED;
     }
-
 #undef DELETE
 }
